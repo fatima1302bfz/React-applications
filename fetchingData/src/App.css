@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.app {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px
+}
+.box {
+    width: 250px;
+}
+p {
+    max-width: 100%;
+    padding: 8px;
+}
+img {
+        width: 100%;
+        object-fit:cover
+    }
